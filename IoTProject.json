@@ -1,0 +1,1 @@
+[{"id":"98ecfd60.ba76d","type":"function","z":"644241a7.bde88","name":"Getting values","func":"msg.payload = {\n    \"Warehouse Temperature\": global.get(\"Warehouse Temperature\"),\n    \"Cold Storage Temperature\": global.get(\"Cold Storage Temperature\")\n}\nreturn msg;","outputs":1,"noerr":0,"x":360,"y":580,"wires":[["75c5dca7.917714"]]}]
